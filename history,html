@@ -1,0 +1,116 @@
+<html>
+  <head>
+    <meta charset ='utf-8'>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chonburi&display=swap" rel="stylesheet">
+    <style>
+      body{ font-family: "Chonburi", serif;font-weight: 700;font-style: normal; 
+      cursor:url("jatu.png"),auto;height:100vh;}
+    </style> 
+    <style>
+    mark{background:linear-gradient(pink,skyblue,orange,beige);color:black;}
+    button1{background:linear-gradient(pink,skyblue);color:black;}
+    button2{background:linear-gradient(#6CCC8E,#E0CA70);color:black;}
+    button3{background:linear-gradient(red,white);color:black;}
+    button4{background:linear-gradient(purple,yellow);color:black;}
+      section{background: linear-gradient(limegreen,yellow,white);
+              padding:15px;
+              margin:20px auto;
+              width: 70%;
+              border-radius:10px;}
+      p{text-indent:2em;}
+      .zoom:hover{transform:scale(1.5);cursor:pointer;}
+
+      img:hover{animation : glowcolors 1.2s infinite alternate;}
+      @keyframes glowcolors{
+        0% { box-shadow: 0 0 40px lightpink;}
+        25% { box-shadow: 0 0 40px skyblue;}
+        50% { box-shadow: 0 0 40px gold;}
+        75% { box-shadow: 0 0 40px violet;}
+        100% { box-shadow: 0 0 40px red;}}
+
+      .blink-bg{
+        animation : blinkbg 1s infinite alternat;
+        padding : 3px 6 px;
+      }
+      @keyframes blinkbg{
+        0%{background:yellow;}
+        100%{background : orange;}
+      }
+      
+      header{background:linear-gradient(white,lightpink,skyblue,white);padding :30px;text-aliign:center;border-radius:10px}
+    </style> 
+    <title>ประวัติ</title>
+  </head>
+  <body background='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKQwiSf6moOw75Pbrbi2LkQHWzTOy_wX_0Qw&s'>
+    <header>
+    <h1><marquee><mark>
+      ยินดีต้อนรับสู่เว็บไซต์ จตุรมิตร 4 เหล่า
+      โรงเรียนสวนกุหลาบวิทยาลัย🌹  โรงเรียนเทพศิรินทร์🔰    โรงเรียนอัสสัมชัญ🍗  โรงเรียนกรุงเทพคริสเตียน ✝
+    </mark></marquee></h1>
+    <br>
+    <center>
+    <h2><button1 onclick="document.location='https://www.sk.ac.th/'">โรงเรียนสวนกุหลาบวิทยาลัย🌹</button1>
+         
+    <button2 onclick="document.location='https://www.debsirin.ac.th/'">โรงเรียนเทพศิรินทร์🔰</button2>
+         
+    <button3 onclick="document.location='https://www.assumption.ac.th/'">โรงเรียนอัสสัมชัญ🍗</button3>
+         
+    <button4 onclick="document.location='https://www.bcc.ac.th/2019/'">โรงเรียนกรุงเทพคริสเตียน ✝</button4>
+         
+    
+    </h2>
+    </center></header>
+    <br><br>
+    <div id="menu" style="background:radial-gradient(white,lightpink,lightblue,white);
+    height:400px ; width:200px ; float :left;" >
+    <b>⛏สารบัญ</b><br>
+    💥  บทนำ<br>
+    💥  ประวัติ<br>
+    💥  การแข่งขัน<br>
+    💥  อันดับแชมป์<br>
+    💥  จตุรมิตรสามัคคีอาวุโส<br>
+    💥  ประเพณีชาวจตุรมิตร<br>
+    💤  ผู้จัดทำ<br>
+    </div>
+     <section>
+      <center>
+        <h1><mark>ประวัติ</mark></h1>
+      </center>
+       <p>การแข่งขันฟุตบอลประเพณีจตุรมิตรสามัคคีเป็นความคิดริเริ่มของนายโปร่ง ส่งแสงเติม อาจารย์ใหญ่โรงเรียนสวนกุหลาบวิทยาลัย กับนายอารีย์ เสมประสาท อาจารย์ใหญ่โรงเรียนกรุงเทพคริสเตียนวิทยาลัย ทั้งสองท่านได้มาขอความร่วมมือจากนายบุญอวบ บูรณะบุตร อาจารย์ใหญ่โรงเรียนเทพศิรินทร์ และนายบรรณา ชโนดม อาจารย์ใหญ่โรงเรียนอัสสัมชัญ ให้ร่วมกันจัดการแข่งขันฟุตบอลระหว่างสี่สถาบัน เพื่อเชื่อมความสามัคคีของครูอาจารย์และนักเรียนทุกฝ่าย ซึ่งอาจารย์ทั้งสี่มีความเห็นพ้องกัน
+</p>
+       <br><br>
+       <center>
+         <span class="blink-bg">รูปบุคคลสำคัญผู้ริเริ่มจตุรมิตร</span>
+         <br><br>
+         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/%E0%B8%99%E0%B8%B2%E0%B8%A2%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%88%E0%B8%87_%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B9%81%E0%B8%AA%E0%B8%87%E0%B9%80%E0%B8%95%E0%B8%B4%E0%B8%A1.jpg/963px-%E0%B8%99%E0%B8%B2%E0%B8%A2%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%88%E0%B8%87_%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B9%81%E0%B8%AA%E0%B8%87%E0%B9%80%E0%B8%95%E0%B8%B4%E0%B8%A1.jpg" width=250 height=250 class="zoom">
+         <img src="https://www.bccaa.or.th/wp-content/uploads/2023/12/%E0%B8%9A%E0%B8%B5%E0%B8%8B%E0%B8%B5%E0%B8%8B%E0%B8%B5-%E0%B8%94%E0%B8%B5%E0%B9%80%E0%B8%94%E0%B9%88%E0%B8%99-%E0%B8%A3%E0%B8%B2%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%A5-22%E0%B8%AD%E0%B8%B2%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B9%8C-%E0%B9%80%E0%B8%AA%E0%B8%A1%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%AA%E0%B8%B2%E0%B8%9722-218x300.jpg" width=250 height=250 class="zoom">
+         <img src="https://lh5.googleusercontent.com/proxy/porZp5fcgu1OMzCQWx_vH4QMIVbAmmpINE4mAu1QyRiPdPUDZqsqnAX7C5VpffWnQ4s6XWAD_xaAj97XIeFk-i6wKtk9Daei_sFoKZEVoKSywkvs-0JuYJwpMFcaVjCgJuG0fELuPp2DkNgnYqAV_tcRXrfeu6-cXxjNU8v94HmJf7XB-501p_XeepEKCmffu0Yu5ZFpwFwbnThxIjtqhL6jz6530Wx4aegjWYd8zTfAWeXss3dLjMlOTfI946mnd2YpxJ4LV6Kg8e9zpqQn-oVtgho6r_5qiFE" width=250 height=250 class="zoom">
+         <img src="https://www.geocities.ws/pipepaul1/omac12.jpg" width=250 height=250 class="zoom">
+       </center>
+       <hr style = "height: 8px; width:80%;
+        background:linear-gradient(to right, limegreen,yellow,lightpink,skyblue,violet,gold,red,white);">
+
+    <p>การแข่งขันจตุรมิตรสามัคคีครั้งแรกจัดขึ้นระหว่างวันที่ 16 ตุลาคมถึง 18 พฤศจิกายน พ.ศ. 2507 โดยมีวัตถุประสงค์หลักเพื่อเสริมสร้างความสามัคคีของนักเรียนทั้งสี่โรงเรียน การแข่งขันครั้งต่อมาจัดขึ้นทุกปีจนถึงปี พ.ศ. 2528 ยกเว้นในปี พ.ศ. 2509–2510, 2515, 2517–2520 และ 2522–2523 ตั้งแต่ปี พ.ศ. 2530 เป็นต้นมา การแข่งขันถูกจัดขึ้นทุก ๆ สองปี รายการนี้เป็นการแข่งขันฟุตบอลไทยที่ได้รับความนิยมและผู้เล่นที่โดดเด่นจากการแข่งขันนี้ยังคงเป็นผู้เล่นคนสำคัญในไทยแลนด์พรีเมียร์ลีก ได้แก่ ธวัชชัย ดำรงค์อ่องตระกูล และธีรเทพ วิโนทัย งานนี้มีการออกอากาศเป็นประจำทางโทรทัศน์แห่งชาติ และการแข่งขันล่าสุด 3 รายการยังได้รับการถ่ายทอดผ่านวิดีโอสตรีมมิ่งสดพร้อมคะแนนสดที่เผยแพร่บนเว็บไซต์อย่างเป็นทางการ นอกจากการแข่งขันแล้วยังประกอบด้วยการแสดงเชียร์ และการแปรอักษร</p>
+       <br><br>
+       <center>
+         <span class="blink-bg">ภาพบรรยากาศการแข่งขันฟุตบอลจตุรมิตรครั้งที่ 31</span> <br>
+         <img src="https://cdni-hw.ch7.com/dm/sz-sm/i/images/2025/11/23/692283a1658327.12675167.jpg" width=250 height=250 class="zoom">
+         <img src="https://cdni-hw.ch7.com/dm/sz-sm/i/images/2025/11/23/692283a4542662.11627020.jpg" width=250 height=250 class="zoom">
+         <img src="https://cdni-hw.ch7.com/dm/sz-sm/i/images/2025/11/23/692283a872c140.10537105.jpg" width=250 height=250 class="zoom">
+         <img src="https://cdni-hw.ch7.com/dm/sz-sm/i/images/2025/11/23/692283ac545c03.50851184.jpg" width=250 height=250 class="zoom">
+         <br><br>
+         <span class="blink-bg">ภาพบรรยากาศการเชียร์และแปรอักษร</span> <br>
+         <img src="https://scontent.fbkk11-1.fna.fbcdn.net/v/t39.30808-6/586605917_1282761623878383_6001683451462680990_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=f727a1&_nc_ohc=kWlV4j-gmmIQ7kNvwH1X3j8&_nc_oc=AdkxYgf1Qw6nD2DXYzNz-H5VG6rwo8tnQB7Dy1dsHkMxUSJsSRWkLgJOofpyY0jSodE&_nc_zt=23&_nc_ht=scontent.fbkk11-1.fna&_nc_gid=VsXC8K63haoFlgmfk_KcjQ&oh=00_AfhC4nm1D_UKV6Yuf5e3sHB_SbhD-MRKEQXhVD2Z2myYOw&oe=6932F72E" width=250 height=250 class="zoom">
+         <img src="https://scontent.fbkk11-1.fna.fbcdn.net/v/t39.30808-6/585004615_873776895398712_5496842505195683845_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=r_GxQ3qZq2sQ7kNvwGXWrCR&_nc_oc=AdkOtf5uPh-SrMT2w4UZatoO0kGS0fB3xCRYajYVSGbxR30G18LUVrSGFF8LeZTQkgQ&_nc_zt=23&_nc_ht=scontent.fbkk11-1.fna&_nc_gid=vyK7BvGuRvicv9uIDpZwyA&oh=00_AfhlbhLLVeK44reZqSzfpuP81noPAG4dVI0Swyrp92oUFQ&oe=6932D42D" width=250 height=250 class="zoom">
+         <img src="https://scontent.fbkk11-1.fna.fbcdn.net/v/t39.30808-6/586645271_1282761317211747_1763077935948710471_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=f727a1&_nc_ohc=qqjbRCHDlgoQ7kNvwFeGQVA&_nc_oc=Adko0BgnTg3XeaPYQr_b_7r5_EGuW26mdPHmZJ_1LrKi5hJpmXqipdTpQZjUNlHrroc&_nc_zt=23&_nc_ht=scontent.fbkk11-1.fna&_nc_gid=XmTROkFXIZqRBSSYJOKgdQ&oh=00_AfhjKXv4aw9-qsOAmrmSVZLTkve9hmgO-H4PtLeIM_e-lQ&oe=6932FA37" width=250 height=250 class="zoom">
+         <img src="https://scontent.fbkk11-1.fna.fbcdn.net/v/t39.30808-6/586571068_1282758833878662_3277840593876912282_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=f727a1&_nc_ohc=W7xcyc4XCpIQ7kNvwFcnd0v&_nc_oc=AdlWxGm1q_uy_RLURLyw-1p_Ef1w-OeNf1lw2pkx2J59YOi3d1or0SpLNbYWyzm0Nks&_nc_zt=23&_nc_ht=scontent.fbkk11-1.fna&_nc_gid=EdVi2gkvxxqwu-LcTPp39A&oh=00_Afi0bBxtf4zSc40UgOw3aa_OlxEOyhLhmGbPMRqJYzOHbw&oe=6932F994" width=250 height=250 class="zoom">
+       </center>
+       <hr style = "height: 8px; width:80%;
+         <br><br<
+
+
+       
+    </section>
